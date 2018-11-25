@@ -1,5 +1,5 @@
 {
-  "name": "myRestModel",
+  "name": "myRestCommentModel",
   "base": "Model",
   "idInjection": true,
   "options": {
