@@ -32,5 +32,20 @@
         }
       }
     ]    
-  }
+  },
+  "albumsds": {
+    "name": "albumsds",
+    "connector": "rest",
+    "operations": [
+      {
+        "functions": {
+          "getAlbums": []
+        },
+        "template": {
+          "method": "GET",
+          "url": "https://jsonplaceholder.typicode.com/albums"
+        }
+      }
+    ]    
+  }  
 }

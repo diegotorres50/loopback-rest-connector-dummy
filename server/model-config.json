@@ -13,11 +13,11 @@
       "./mixins"
     ]
   },
-  "myRestModel": {
+  "myRestCommentModel": {
     "dataSource": "commentsds",
     "public": true
   },
-  "comment": {
+  "contentProfiling": {
     "dataSource": "db",
     "public": true
   },
@@ -28,5 +28,9 @@
   "myRestUserModel": {
     "dataSource": "usersds",
     "public": true
-  }   
+  },
+  "myRestAlbumModel": {
+    "dataSource": "albumsds",
+    "public": true
+  }      
 }

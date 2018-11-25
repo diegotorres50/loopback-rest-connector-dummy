@@ -1,5 +1,5 @@
 {
-  "name": "comment",
+  "name": "contentProfiling",
   "base": "Model",
   "idInjection": true,
   "options": {
