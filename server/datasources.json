@@ -1,0 +1,36 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },  
+  "commentsds": {
+    "name": "commentsds",
+    "connector": "rest",
+    "operations": [
+      {
+        "functions": {
+          "getComments": []
+        },
+        "template": {
+          "method": "GET",
+          "url": "https://jsonplaceholder.typicode.com/comments"
+        }
+      }
+    ]    
+  },
+  "usersds": {
+    "name": "usersds",
+    "connector": "rest",
+    "operations": [
+      {
+        "functions": {
+          "getUsers": []
+        },
+        "template": {
+          "method": "GET",
+          "url": "https://jsonplaceholder.typicode.com/users"
+        }
+      }
+    ]    
+  }
+}
